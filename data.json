@@ -1,0 +1,26 @@
+              [
+    {
+        "titulo": "Cleanplast",
+        "categoria": "Biomaterial",
+        "imagen": "Cleanplast.jpg",
+        "alt": "Biomaterial Cleanplast"
+    },
+    {
+        "titulo": "Bernhard Gothic & Mrs Eaves",
+        "categoria": "Afiche",
+        "imagen": "afiche typo.jpg",
+        "alt": "Afiche Tipografía"
+    },
+    {
+        "titulo": "Healthy Diet & Insights",
+        "categoria": "Infografía",
+        "imagen": "healthy diet.jpg",
+        "alt": "Infografía Diet"
+    },
+    {
+        "titulo": "70 años de Condorito",
+        "categoria": "Infografía",
+        "imagen": "Condorito.jpg",
+        "alt": "Infografía Condorito"
+    }
+]
