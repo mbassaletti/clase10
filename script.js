@@ -1,22 +1,32 @@
-const portfolio = document.querySelector("#pipis"); 
-async function datos(raw)
-{ try 
-{ let consulta = await fetch (raw);
-  let trabajos = await consulta.json();
-  console.log(trabajos); trabajos.forEach((trabajo) => {portfolio.innerHTML += `
+const portfolio = document.querySelector("#pipis");
+async function datos(raw) {
+  try {
+    let consulta = await fetch(raw);
+    let trabajos = await consulta.json();
+    console.log(trabajos);
 
-<div class="col">
-    <div class="card shadow-sm">
-        <img src="${trabajo.imagen}" class"card-img-top">
-        <div class="card-body">
-            <p class="card-text">${trabajo.titulo}</p>
-            <div class="d-flex justify-content-between align-items-center">
+    trabajos.forEach((trabajo) => {
+      portfolio.innerHTML += `
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="${trabajo.imagen}" class="card-img-top" alt="${trabajo.titulo}" />
+            <div class="card-body">
+              <p class="card-text">${trabajo.titulo}</p>
+              <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">${trabajo.categoria}</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">${trabajo.categoria}</button>
                 </div>
-                <small class="text-body-secondary">Reciente </small>
+                <small class="text-body-secondary">Reciente</small>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-`}); catch (error) { console.error("Error al cargar los datos:", error); }
+      `;
+    });
+
+  } catch (error) {
+    console.error("Error al cargar los datos:", error);
+  }
+}
+datos('https://mbassaletti.github.io/clase10/datos.json');
+
