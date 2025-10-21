@@ -27,4 +27,5 @@ async function datos(raw) {
         console.error("Error al cargar los datos:", error);
     }
 }
-datos("https://mbassaletti.github.io/clase10/datos.json");
+
+datos("https://raw.githubusercontent.com/mbassaletti/clase10/main/datos.json");
