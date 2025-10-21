@@ -2,7 +2,7 @@
     {
         "titulo": "Cleanplast",
         "categoria": "Biomaterial",
-        "imagen": "Cleanplast.jpg",
+        "imagen": "https://mbassaletti.github.io/clase10/img/Cleanplast.webp",
         "alt": "Biomaterial Cleanplast"
     },
     {
@@ -14,13 +14,13 @@
     {
         "titulo": "Healthy Diet & Insights",
         "categoria": "Infografía",
-        "imagen": "healthy diet.jpg",
+        "imagen": "https://mbassaletti.github.io/clase10/img/healthy diet.webp",
         "alt": "Infografía Diet"
     },
     {
         "titulo": "70 años de Condorito",
         "categoria": "Infografía",
-        "imagen": "Condorito.jpg",
+        "imagen": "https://mbassaletti.github.io/clase10/img/Condorito.webp",
         "alt": "Infografía Condorito"
     }
 ]
