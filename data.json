@@ -1,4 +1,4 @@
-              [
+[
     {
         "titulo": "Cleanplast",
         "categoria": "Biomaterial",
@@ -8,13 +8,13 @@
     {
         "titulo": "Bernhard Gothic & Mrs Eaves",
         "categoria": "Afiche",
-        "imagen": "afiche typo.jpg",
+        "imagen": "https://mbassaletti.github.io/clase10/img/afiche%20typo.webp",
         "alt": "Afiche Tipografía"
     },
     {
         "titulo": "Healthy Diet & Insights",
         "categoria": "Infografía",
-        "imagen": "https://mbassaletti.github.io/clase10/img/healthy diet.webp",
+        "imagen": "https://mbassaletti.github.io/clase10/img/healthy%20diet.webp",
         "alt": "Infografía Diet"
     },
     {
