@@ -1,12 +1,12 @@
 const portfolio = document.querySelector("#pipis");
 async function datos(raw) {
-  try {
-    let consulta = await fetch(raw);
-    let trabajos = await consulta.json();
-    console.log(trabajos);
+    try {
+        let consulta = await fetch(raw);
+        let trabajos = await consulta.json();
+        console.log(trabajos);
 
-    trabajos.forEach((trabajo) => {
-      portfolio.innerHTML += `
+        trabajos.forEach((trabajo) => {
+            portfolio.innerHTML += `
         <div class="col">
           <div class="card shadow-sm">
             <img src="${trabajo.imagen}" class="card-img-top" alt="${trabajo.titulo}" />
@@ -22,11 +22,9 @@ async function datos(raw) {
           </div>
         </div>
       `;
-    });
-
-  } catch (error) {
-    console.error("Error al cargar los datos:", error);
-  }
+        });
+    } catch (error) {
+        console.error("Error al cargar los datos:", error);
+    }
 }
-datos('https://mbassaletti.github.io/clase10/datos.json');
-
+datos("https://mbassaletti.github.io/clase10/datos.json");
