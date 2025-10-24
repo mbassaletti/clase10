@@ -2,7 +2,7 @@ const portfolio = document.querySelector("#pipis");
 async function datos(raw) {
     try {
         let consulta = await fetch(raw);
-        let trabajos = await consulta.json();
+        let resultado = await consulta.json();
         let trabajos = resultado.data;
         console.log(trabajos);
 
@@ -28,4 +28,5 @@ async function datos(raw) {
         console.error("Error al cargar los datos:", error);
     }
 }
+
 datos("https://api.myjson.online/v1/records/85186615-bc56-4626-a877-6427dac8cc12");
