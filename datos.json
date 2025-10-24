@@ -22,18 +22,17 @@
         "categoria": "Infografía",
         "imagen": "https://mbassaletti.github.io/clase10/img/Condorito.webp",
         "alt": "Infografía Condorito"
-    }
+    },
     {
         "titulo": "Fanzine Mrs Eaves",
         "categoria": "Editorial",
         "imagen": "https://mbassaletti.github.io/clase10/img/fanzinemrs.webp",
         "alt": "Infografía Mrs Eaves"
-    }
+    },
     {
         "titulo": "Fanzine Bernhard Gothic",
         "categoria": "Editorial",
         "imagen": "https://mbassaletti.github.io/clase10/img/fanzinebern.webp",
         "alt": "Infografía Bernhard Gothic"
     }
-
 ]
