@@ -28,4 +28,4 @@ async function datos(raw) {
         console.error("Error al cargar los datos:", error);
     }
 }
-datos("https://raw.githubusercontent.com/mbassaletti/clase10/main/datos.json");
+datos("https://api.myjson.online/v1/records/85186615-bc56-4626-a877-6427dac8cc12");
