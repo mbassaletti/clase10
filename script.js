@@ -3,6 +3,7 @@ async function datos(raw) {
     try {
         let consulta = await fetch(raw);
         let trabajos = await consulta.json();
+        let trabajos = resultado.data;
         console.log(trabajos);
 
         trabajos.forEach((trabajo) => {
@@ -27,4 +28,4 @@ async function datos(raw) {
         console.error("Error al cargar los datos:", error);
     }
 }
-datos("https://raw.githubusercontent.com/mbassaletti/clase10/main/data.json");
+datos("https://raw.githubusercontent.com/mbassaletti/clase10/main/datos.json");
